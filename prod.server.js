@@ -40,7 +40,7 @@ apiRoutes.get('/ratings', function (req, res) {
 		errno: 0,
 		data: ratings
 	});
-});
+}); 
 
 app.use('/api', apiRoutes);
 
